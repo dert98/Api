@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://dert98.github.io/Porfolio/global.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <div class="container" id="root">
+    <div class="container" id="app">
         <div class="grid-menu" id="">
             <label for="">class_alias</label>
-            <div v-for="producto in filtrados">
+            <div v-for="producto in productos">
                 <div class="menu-item">
                     <div class="img-prod">
                         <div class="icon-img-prod"></div>
